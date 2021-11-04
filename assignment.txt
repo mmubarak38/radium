@@ -1,0 +1,291 @@
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~
+$ pwd
+/c/Users/Mubarak Ansari
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ cohert/
+ functionUp/
+ new_assignment/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ radium/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~
+$ cd OneDrive
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive
+$ ls
+Desktop/  Documents/  Pictures/  desktop.ini
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive
+$ cd Desktop
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop
+$ ls
+'Microsoft Teams.lnk'*      Zoom.lnk*      functionUp/   zzzz/
+ Postman.lnk*               desktop.ini    javascript/
+'Visual Studio Code.lnk'*   firstgit.txt  'new video'/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop
+$ mkdir workspace.cmd
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop
+$ ls
+'Microsoft Teams.lnk'*      Zoom.lnk*      functionUp/   workspace.cmd/
+ Postman.lnk*               desktop.ini    javascript/   zzzz/
+'Visual Studio Code.lnk'*   firstgit.txt  'new video'/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop
+$ cd workspace
+bash: cd: workspace: No such file or directory
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop
+$ cd workspace.cmd
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd
+$ mkdir functionUp
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd
+$ cd functionUp/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp
+$ mkdir assignment
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp
+$ cd assignment/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ mkdir source
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ mkdir destination
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ ls
+destination/  source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cat >mubarak's assignment
+hi this is mubarak ansari
+hi this is mubarak ansari
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ ls
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cat mubarak's assignment
+>
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ pwd
+/c/Users/Mubarak Ansari/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ ls
+destination/  source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cp -r source/mubarak's assignment destination/
+>
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd source
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ ls
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ rm mubarak's assignment
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cat >dummy.txt
+hi it's me mubarak ansari
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ ls
+dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cp -r source/dummy.txt destination
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ ls
+destination/  source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd destination
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ ls
+dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ cat dummy.txt
+hi it's me mubarak ansari
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd source
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cat dummy.txt
+hi it's me mubarak ansari
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ ls
+destination/  source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd destination/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ sl
+bash: sl: command not found
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ ls
+dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ rm dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ sl
+bash: sl: command not found
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ ls
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ mv source/dummy.txt destination/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ l
+bash: l: command not found
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ ls
+destination/  source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd destination/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ ls
+dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cs source/
+bash: cs: command not found
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd source/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ ls
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/source
+$ cd ..
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cat dummy.txt
+cat: dummy.txt: No such file or directory
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment
+$ cd destination/
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ cat dummy.txt
+hi it's me mubarak ansari
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ vim dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ cat dummy.txt
+hi it's me mubarak ansari
+functionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industres
+functionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industres
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ grep -i "functionup' dummy.txt
+> bash: unexpected EOF while looking for matching `"'
+bash: syntax error: unexpected end of file
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ grep -i "functionup" dummy.txt
+functionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industres
+functionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industresfunctionup is an training institute which providse training to the new techie to uncderstand what is going on in the present tech industres
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ sl
+bash: sl: command not found
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$ ls
+dummy.txt
+
+Mubarak Ansari@LAPTOP-K0E8TH28 MINGW64 ~/OneDrive/Desktop/workspace.cmd/functionUp/assignment/destination
+$
