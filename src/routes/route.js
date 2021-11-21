@@ -1,9 +1,11 @@
 const express = require('express');
-
 const router = express.Router();
 
-router.get('/test-me', function (req, res) {
-    res.send('My first ever api!')
-});
+
+const commonMid = require("../middleware/middleware")
+const cmController = require("../controller/cmController")
+
+router.get('/middleware', commonMid.middleware1, cmController.midware)
 
 module.exports = router;
+
