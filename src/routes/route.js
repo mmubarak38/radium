@@ -1,9 +1,20 @@
 const express = require('express');
-
 const router = express.Router();
 
-router.get('/test-me', function (req, res) {
-    res.send('My first ever api!')
-});
+
+const userController =require("../controllers/userController")
+const commonMw = require("../middlewares/userMiddleware")
+
+
+router.post('/createuser', userController.createUser)
+router.post('/userlogin', userController.userlogin)
+router.get('/users/:userId', commonMw.authenticate, userController.getUserDetails)
+router.put('/users/:userId', commonMw.authenticate, userController.updateEmail)
+
+
+
+
+
+
 
 module.exports = router;
