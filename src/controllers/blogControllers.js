@@ -18,7 +18,7 @@ const createBlogs = async function (req, res) {
             res.status(201).send({ status: true, data: createdBlog })
         }
     } catch (error) {
-        res.status(500).send({ status: false, mag: error });
+        res.status(500).send({ status: false, msg: error });
     }
 }
 
@@ -91,7 +91,30 @@ const deleteBlogByid = async function (req, res) {
     }
   }
 
+  // (6th api)last api to delete a blog by search givin condition i that api
+//  i can use or condition to find the data and 
+// in updatemany i can use the same condition
+const deleteBlogByQuerConditoin = async function (req, res) {
+    try {
+      let authorid = req.query.authorid;
+      let tag = req.query.tag;
+      let subcategory = req.query.subcategory;
+      let isPublished = req.query.isPublished;
+      let check = await BlogsModel.find({ $or: [{ authorId: authorid }, { tags: [tag] }, { subcategory: [subcategory] }, { isPublished: isPublished }] });
+      if (check) {
+        await BlogsModel.updateMany({ $or: [{ authorId: authorid }, { tags: [tag] }, { subcategory: [subcategory] }, { isPublished: isPublished }] }, { isDeleted: true });
+  
+        res.status(200).send({ status: true, msg: "sucessfully deleted" });
+      } else {
+        res.ststus(400).send({ status: false, msg: "!No blog found" });
+      }
+    } catch (error) {
+      res.status(400).send({ status: false, msg: error });
+    }
+  
+  }
 module.exports.createBlogs = createBlogs;
 module.exports.getBlogs = getBlogs;
 module.exports.updateBlogs= updateBlogs;
 module.exports.deleteBlogByid= deleteBlogByid;
+module.exports.deleteBlogByQuerConditoin= deleteBlogByQuerConditoin

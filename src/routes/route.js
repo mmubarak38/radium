@@ -7,5 +7,7 @@ router.post('/createAuthor',AuthorController.createAuthor);
 router.post('/createBlog', BlogConctroller.createBlogs);
 router.get('/getblogs', BlogConctroller.getBlogs)
 router.put('/blogs/:blogId' ,BlogConctroller.updateBlogs);
-router.get('/deleteBlogById', BlogConctroller.deleteBlogByid);
+router.get('/deleteBlogById/:blogId', BlogConctroller.deleteBlogByid);
+router.get('/deletBlogByQuerCondition', BlogConctroller.deleteBlogByQuerConditoin);
+
 module.exports = router;
